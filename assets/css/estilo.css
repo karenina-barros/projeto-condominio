@@ -1,0 +1,98 @@
+body{
+    height: 700px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topo{
+    border-bottom: 1px solid #eee;
+}
+
+.menu{
+    min-height: 700px;
+    border-right: 1px solid #eee
+}
+
+
+.bg{
+    background: #dedede; 
+}
+
+.img{
+    width: 20%;
+}
+
+.input-login{
+    outline: none !important;
+    border-bottom: #4bc9b7 2px solid !important;
+}
+
+input[type="checkbox"]{
+    padding: 3px;
+}
+
+.btn-login{
+    background: #4bc9b7;
+    font-size: 1.25em !important;
+    letter-spacing: 1px;
+}
+
+.h1-BV{
+    font-size: 45px;
+}
+
+.img-logo{
+    max-width: 150px;
+}
+
+.text-cinza{
+    color: #474747
+}
+
+.icon-n{
+    color: #95cfa9;
+}
+
+.icon-l{
+padding: 2px;   
+}
+
+.font-s{
+    font-size: 0.9em;
+}
+.far, .fas,.fa{
+    cursor: pointer;
+}
+
+.purple{
+    color: #e0a6ff;
+}
+
+.green{
+    color: #4bc9b7;
+}
+
+.light-blue{
+    color: #4bcfea;
+}
+
+.red{
+    color: #f38fa6;
+}
+
+.list-group-item:hover{
+    color: #eb8256 !important;
+}
+.icon-topo:hover{
+    color: #eb8256 !important;
+}
+
+.bg-orange{
+    background: #eb8256;
+    color: white;
+}
+
+.input-orange{
+    border: 1px solid #eb8256;
+}

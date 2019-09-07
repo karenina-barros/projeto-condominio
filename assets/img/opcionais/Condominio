@@ -1,0 +1,186 @@
+=============================
+    Projeto Condominio
+=============================
+
+---------------------
+ANALISE DE REQUISITOS
+---------------------
+
+1 - GESTÃO DE MORADORES
+    1.1 - Cadastro, edição, listagem e exclusão de moradores. 
+    1.2 - Diferenciação de Usuarios por Nivel
+
+2 - GESTÃO FINANCEIRA
+    2.1 - Contas a Pagar
+    2.2 - Contas a Receber
+    2.3 - Emissão de Recibos
+    2.4 - Relatorios Financeiros
+        2.4.1 - Relatorio de Entradas
+        2.4.2 - Relatorios de Saidas
+        2.4.3 - Relatorio de Inadimplencia
+        2.4.4 - Relatorio de Balanço por periodo 
+
+3 - GESTÃO DE DOCUMENTOS
+    3.1 - Sistema de Arquivos (Contas, Recibos, Atas, Relatorios em PDF, etc)
+
+4 - GESTÃO DE METAS
+    4.1 - Cadastro, edição, listagem e exclusão de metas
+    4.2 - Historico de Alteração de Metas 
+
+5 - SISTEMA DE COMUNICAÇÃO INTERNA
+    5.1 - Painel Informativo
+    5.2 - Cadastro, edição, listagem e exclusão de Informativo
+    5.3 - Sistema de Envio de E-mail
+
+6 - Comentarios
+    6.1 - Painel de Comentario 
+
+
+------------
+PLANEJAMENTO
+------------
+
+1 - Analise de Dados 
+    1.1 - Listar Entidade do Sistema 
+    1.2 - Listar dados das Entidades
+    1.3 - Criação da Base de Dados
+    1.4 - Criação das Tabelas e Relacionamentos
+
+2 - Definição do Layout
+    2.1 - Definir paginas do Sistema
+    2.2 - Desenvolver Layout em software de design grafico
+
+3 - Controle de versionamento do Sistema
+    3.1 - Criação do Repositorio no github
+
+4 - Desenvolvimento
+    4.1 - Desenvolver Layout em HTML
+    4.2 - Desenvolvimento do backend em PHP
+
+5 - Testes
+    5.1 - Realizar testes do funcionamento do Sistema    
+
+----------------
+ANALISE DE DADOS
+----------------
+
+1 - ENTIDADES
+    1.1 - morador
+    1.2 - Documento 
+    1.3 - Informativo
+    1.4 - Comentario
+    1.5 - Meta
+    1.6 - Movimentação (Entradas e Saidas)
+
+2 - DADOS
+    morador = [
+        Nome
+        Sobrenome
+        CPF
+        Telefone 
+        Email
+        Senha
+        Unidade
+    ]
+    
+    Documento = [
+        Titulo
+        Descrição
+        Tipo
+        Data de Criação
+    ]
+
+    Informativo = [
+        Assunto
+        Conteudo
+        Anexo
+        DataPublicação
+        Morador
+    ]
+
+    Comentario = [
+        Conteudo
+        DataPublicação
+        Morador
+    ]
+
+    Meta = [
+        Titulo
+        Conteudo
+        Anexo
+        DataCriação
+        DataLimite
+    ]
+
+    Movimentação = [
+        Titulo
+        Tipo
+        Valor
+        DataVencimento
+
+    ]
+
+
+-------------------
+DEFINIÇÃO DO LAYOUT
+-------------------
+
+1 - Login
+    1.1 - Formulario de Login [Email, Senha]
+2 - Recuperação de senha 
+    2.1 - Formulario de Recuperação de senha [Email]
+    2.2 - Formulario de Cadastro de Nova Senha [token, nova senha]
+3 - Dashboard 
+    3.1 - Menu Geral do Sistema, Barra de Notificação, Barra de Pesquisa, Botão de Saida e Box Paginas Auxiliares
+4 - Auxiliares
+    4.1 - Dashboard Index 
+        4.1.1 - Painel Informativo
+        4.1.2 - Metas Definidas
+        4.1.3 - Comentarios
+    4.2 - Dashboard Perfil do Usuario
+        4.2.1 - Exibição dos dados do Usuario, link para edição
+    4.3 - Dashboard Usuario
+        4.3.1 - Pagina de Cadastro de Usuario
+        4.3.2 - Pagina de Edição de Usuario
+        4.3.3 - listagem de Usuarios (ver, editar, excluir)
+    4.4 - Dashboard Informativo
+        4.4.1 - Pagina de Cadastro de Informativo
+        4.4.2 - Pagina de Edição de Informativo
+    4.5 - Dashboard Contas a Pagar
+        4.5.1 - Cadastro da Conta
+        4.5.2 - Edição da Conta
+        4.5.3 - Listagem das Contas
+        4.5.4 - Pagina de visualização de Conta
+    4.6 - Dashboard Contas a Receber
+        4.6.1 - Cadastro da Conta
+        4.6.2 - Edição da Conta
+        4.6.3 - Listagem das Contas
+        4.6.4 - Pagina de visualização de Conta
+    4.7 - Dashboard Metas
+        4.7.1 - Cadastro da Metas
+        4.7.2 - Edição da Metas
+        4.7.3 - Listagem das Metas
+        4.7.4 - Pagina de visualização de Metas
+    4.8 - Dashboard Relatorios
+        4.8.1 - Formulario de Seleção de Relatorio
+        4.8.2 - Relatorio de Gastos por periodo
+        4.8.3 - Relatorio de entradas por periodo
+        4.8.4 - Relatorio de Balanço por periodo
+        4.8.5 - Relatorio de Balanço anual
+        4.8.6 - Relatorio de Inadimplencia por periodo
+        4.8.7 - Relatorio de Balanço de Fundo de Reserva por periodo
+        4.8.8 - Relatorio de Balanço de Fundo de Reserva anual
+    4.9 - Dashboard Gerador de Recibos
+        4.9.1 - Gerador de Recibo para condomino
+        4.9.2 - Gerador de comprovante de Pagamento (Formulario)
+    4.10 - Dashboard Gerador de Documento
+        4.10.1 - Gerador de Ata 
+    4.11 - Dashboard Sistema de Envio de Email
+        4.11.1 - Formulario de envio de Email
+
+        
+    
+
+
+
+
