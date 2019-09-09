@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
     <title>Deshboard</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/estilo.css">
-    <link href="../assets/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link href="./assets/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <div class="container-fluid ">
+    <div class="container-fluid mb-4">
         <div class="row p-1 topo">
             <div class="col-5 m-0 p-0">
-                    <img src="../assets/img/doce.png" class="img-logo rounded pl-5 pt-2" alt="">
+                    <img src="./assets/img/doce.png" class="img-logo rounded pl-5 pt-2" alt="">
             </div>
             <div class="col-3 justify-content-center py-1">
                 <form class="col-12 input-group input-group-sm">
                     <input type="text" class="form-control input-orange" placeholder="Pesquisar...">
-                    <span class="input-group-btn">
+                    <span class="input-group-append">
                         <button class="btn bg-orange"><i class="fas fa-search"></i></button>
                     </span>
                 </form>
@@ -53,43 +53,39 @@
         <div class="row">
             <div class="col-2 list-group list-group-flush menu p-0">
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-home px-3"></i>
+                    <i class="fas fa-home pr-2 ml-4"></i>
                     Home
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-users px-3"></i>
+                    <i class="fas fa-users pr-2 ml-4"></i>
                     Moradores
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="far fa-file-alt px-3"></i>
+                    <i class="far fa-file-alt pr-3 ml-4"></i>
                     Documentos
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-bullhorn px-3"></i>
+                    <i class="fas fa-bullhorn pr-2 ml-4"></i>
                     Comunicados
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-user-tag px-3"></i>
+                    <i class="fas fa-user-tag pr-2 ml-4"></i>
                     Funcionarios
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-tasks px-3"></i>
+                    <i class="fas fa-tasks pr-2 ml-4"></i>
                     Planejamento
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-cogs px-3"></i>
+                    <i class="fas fa-cogs pr-1 ml-4"></i>
                     Configurações
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-dollar-sign px-3"></i>
+                    <i class="fas fa-dollar-sign pr-3 ml-4"></i>
                     Financeiro
                 </a>
             </div>
-        </div>
-    </div>
-    <script src="../assets/js/jquery-3.2.1.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-</body>
+            <div class="col-10 py-4 px-4 bg-light">
+           
 
-</html>
+    

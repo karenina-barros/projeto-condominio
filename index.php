@@ -5,45 +5,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
     <title>Login</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
 </head>
 
 <body>
     <div class="container-fluid">
-
-        <div class="row justify-content-center pt-5 mt-5 ">
-            <div class="col-10 px-5 mt-5">
+        <div class="row justify-content-center my-5">
+            <div class="col-10 mt-5">
                 <div class="col-4 mx-auto">
                     <div class="text-center">
-                        <h1 class="mb-3 text-secondary h1-BV">Bem-Vindo</h1>
-                        <img src="img/k.png" class="rounded img" alt="">
+                        <h1 class="mb-3 text-secondary">Bem-Vindo</h1>
+                        <img src="./assets/img/k.png" class="rounded img" alt="">
                     </div>
                     <form class="pt-4 ">
                         <div class="form-group pb-3 mt-3">
-                            <input type="email" class="form-control form-control-lg input-login border-0"
+                            <input type="email" class="form-control form-control-sm input-login border-0"
                                 name="InputEmail" id="InputEmail" placeholder="Insira Seu Email"
                                 aria-describedby="emailHelp">
                             <small id="emailHelp" class="form-text text-muted">Ex: conta@dominio.com.br</small>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control form-control-lg input-login border-0"
+                            <input type="password" class="form-control form-control-sm input-login border-0"
                                 name="InputSenha" id="InputSenha" placeholder="Insira Sua Senha">
                         </div>
                         <div class="form-check">
                             <label for="" class="form-check-label text-muted">
                                 <input type="checkbox" class="form-check-input ">
-                                Manter Conectado
-
+                                <small>Manter Conectado</small>
                             </label>
                         </div>
                         <div class="form-check">
-                            <button class="btn btn-link m-0 p-0 text-muted">
-                                 Esqueci Minha Senha
-                            </button>
+                            <a class="btn btn-link m-0 p-0 text-muted">
+                                 <small>Esqueci Minha Senha</small>
+                            </a>
                         </div>
-
-                        <button class="btn btn-block mt-4 p-2 btn-login text-white">Entrar</button>
+                        
+                        <a href="http://localhost/Projetos/projeto-condominio/painel.php">
+                            <button class="btn btn-block mt-4 btn-login text-white" type="button">Entrar</button>
+                        </a>
                     </form>
                 </div>
             </div>
@@ -52,9 +52,9 @@
 
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 
 
 
