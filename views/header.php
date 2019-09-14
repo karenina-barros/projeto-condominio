@@ -52,11 +52,11 @@
         </div>
         <div class="row">
             <div class="col-2 list-group list-group-flush menu p-0">
-                <a href="#" class="list-group-item text-muted font-s">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=home   " class="list-group-item text-muted font-s">
                     <i class="fas fa-home pr-2 ml-4"></i>
                     Home
                 </a>
-                <a href="#" class="list-group-item text-muted font-s">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradores" class="list-group-item text-muted font-s">
                     <i class="fas fa-users pr-2 ml-4"></i>
                     Moradores
                 </a>

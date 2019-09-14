@@ -129,7 +129,7 @@ body{
 
     .bg-orange{
         background: #eb8256;
-        color: white;
+        color: white !important;
     }
 
     .input-orange{
