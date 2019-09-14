@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
     <title>Deshboard</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/estilo.css">
     <link href="./assets/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
 

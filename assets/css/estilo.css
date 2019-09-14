@@ -182,5 +182,26 @@ body{
 }
 
 
+/*
+===== MORADORES =====
+*/
 
+.bg-oranger{
+    background: #e87e03;
+}
 
+.bg-blue{
+    background: #5bcc95;
+}
+
+.bg-green{
+    background: #3da69a;
+}
+
+.bg-red{
+    background: #F6565a;
+}
+
+.bg-yellow{
+    background: rgb(226, 203, 28);
+}

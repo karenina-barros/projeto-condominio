@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
     <title>Login</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/estilo.css">
 </head>
 
@@ -52,15 +52,8 @@
 
     </div>
 
-    <script src="./assets/js/jquery-3.2.1.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-
-
-
-
-
-
+    <script src="./assets/js/botstrap/js/jquery.min.js"></script>
+    <script src="./assets/js/botstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
