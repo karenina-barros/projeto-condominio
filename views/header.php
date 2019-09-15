@@ -85,7 +85,14 @@
                     Financeiro
                 </a>
             </div>
-            <div class="col-10 py-4 px-4 bg-light">
+            <div class="col-10 py-3 px-4 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 bg-white mb-2 py-3 px-4" >
+                        <h5 class="m-0 text-uppercase green "><i class="fas fa-users pr-2"></i>Moradores</h5>
+                        </div>
+                    </div>
+                </div>
            
 
     
