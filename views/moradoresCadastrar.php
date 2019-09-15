@@ -72,8 +72,8 @@
                             <input type="text" class="form-control form-control-sm" id="inputCEP" placeholder="Ex: 35.123-456">
                         </div>
                         <div class="form-group col-md-5">
-                            <label class="mb-0" for="inputAddress">Rua</label>
-                            <input type="text" class="form-control form-control-sm" id="inputAdresss" placeholder="Informe Sua Rua ">
+                            <label class="mb-0" for="inputAddress">Logradouro</label>
+                            <input type="text" class="form-control form-control-sm" id="inputAdresss" placeholder="Ex: Rua, Av. Brasil ">
                         </div>
                         <div class="form-group col-md-1">
                             <label class="mb-0" for="inputNumber">Número</label>
