@@ -29,16 +29,25 @@
                     <div class="col-12">
                         <h6 class="text-danger font-12">Endereço Externo</h6>   
                     </div>            
-                    <div class="col-4">            
+                    <div class="col-12">            
                         <p class="text-cinza mb-1"><b>CEP:</b><span class="text-muted mb-1"> 30.520-150</span></p>                       
-                        <p class="text-cinza mb-1"><b>Bairro:</b><span class="text-muted mb-1"> Camargos</span></p>
+                    </div>
+                    <div class="col-5">             
+                        <p class="text-cinza mb-1"><b>Logradouro:</b><span class="text-muted mb-1"> Maria de Lourdes de Jesus</span></p>           
+                    </div> 
+                    <div class="col-3">             
+                        <p class="text-cinza mb-1"><b>Nº:</b><span class="text-muted mb-1"> 280</span></p> 
+                    </div> 
+                    <div class="col-4">             
+                        <p class="text-cinza mb-1"><b>Complemento:</b><span class="text-muted mb-1"> Casa de Cima</span></p> 
+                    </div> 
+                    <div class="col-4">            
+                        <p class="text-cinza mb-1"><b>Bairro:</b><span class="text-muted mb-1"> Silvio Pereira II</span></p>
                     </div>
                     <div class="col-4">             
-                        <p class="text-cinza mb-1"><b>Rua:</b><span class="text-muted mb-1"> Titânio</span></p>           
                         <p class="text-cinza mb-1"><b>Cidade:</b><span class="text-muted mb-1"> Coronel Fabriciano</span></p>
                     </div> 
                     <div class="col-4">             
-                        <p class="text-cinza mb-1"><b>Número:</b><span class="text-muted mb-1"> 280</span></p> 
                         <p class="text-cinza mb-1"><b>Estado:</b><span class="text-muted mb-1"> Minas gerais</span></p>
                     </div> 
                 </div> 
