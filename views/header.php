@@ -68,7 +68,7 @@
                     <i class="fas fa-bullhorn pr-2 ml-4"></i>
                     Comunicados
                 </a>
-                <a href="#" class="list-group-item text-muted font-s">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionarios" class="list-group-item text-muted font-s">
                     <i class="fas fa-user-tag pr-2 ml-4"></i>
                     Funcionarios
                 </a>
@@ -89,10 +89,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 bg-white mb-2 py-3 px-4" >
-                        <h5 class="m-0 text-uppercase green "><i class="fas fa-users pr-2"></i>Moradores</h5>
+                        <h5 class="m-0 text-uppercase green " id="page"></h5>
                         </div>
                     </div>
                 </div>
+           
            
 
     

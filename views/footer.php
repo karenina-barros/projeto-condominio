@@ -12,6 +12,7 @@
     <script src="./assets/js/bootstrap/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/moradores/moradores.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
