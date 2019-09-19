@@ -28,7 +28,7 @@
                         <label class="mb-0" for="inputTelefone1">Telefone 1</label>
                         <input type="text" class="form-control form-control-sm" id="inputTelefone1" placeholder="Ex: (00) 00000-0000">
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-4 ">
                         <label class="mb-0" for="inputTelefone2">Telefone 2</label>
                         <input type="text" class="form-control form-control-sm" id="inputTelefone2" placeholder="Ex: (00) 0000-0000">
                     </div>
