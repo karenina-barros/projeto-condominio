@@ -6,7 +6,10 @@ window.addEventListener('load', function(){
     if(page == 'moradores' || page == 'moradoresCadastrar' || page == 'moradoresPerfil'){
         pageName.innerHTML = '<i class="fas fa-users pr-2"></i>Moradores';
     } 
-    else if (page == 'funcionarios' || page == 'funcionariosCadastrar' || page == 'funcionariosPerfil'){
+    else if (page == 'funcionarios' || page == 'funcionariosCadastrar' || page == 'funcionariosPerfil' || page == 'funcionariosEditar'){
         pageName.innerHTML = '<i class="fas fa-users-cog pr-2"></i>Funcionários';
+    }
+    else if (page == 'comunicados' || page == 'novoComunicado'){
+        pageName.innerHTML = '<i class="fas fa-paper-plane pr-2"></i>comunicados  ';
     }
 });

@@ -64,7 +64,7 @@
                     <i class="far fa-file-alt pr-3 ml-4"></i>
                     Documentos
                 </a>
-                <a href="#" class="list-group-item text-muted font-s">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=comunicados" class="list-group-item text-muted font-s">
                     <i class="fas fa-bullhorn pr-2 ml-4"></i>
                     Comunicados
                 </a>
