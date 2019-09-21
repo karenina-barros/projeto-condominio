@@ -4,6 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* ====== FONT SIZE ====== */
 
 .font-12{
     font-size: 1.2em;
@@ -26,29 +27,66 @@ body{
     font-size: 0.85em;
 }
 
+/* ====== FONT COLOR ======= */
+
 .text-cin{
     color: #444
 }
 
 .text-cinza{
-    color: #666666;
+    color: #47474747;
+}
+.text-red{
+    color: #f38fa6;
 }
 
 
+/* ====== BACKGRAUND ======= */
+.bg-orange{
+    background: #eb8256;
+    color: white !important;
+}
 
+.bg-blue{
+    background: #5bcc95;
+}
 
+.bg-green{
+    background: #3da69a;
+}
 
+.bg-light{
+    background: #F2F2F2;
+}
+
+.bg-gray-light{
+    background: #D9D9D9;
+}
+
+.bg-gray{
+    background: #5D6473 !important;
+}
+
+.bg-dark-gray{
+    background: #343A40;
+}
+
+.bg-blue-light{
+    background: #72B5A4;
+}
+
+.bg-pink-light{
+    background: #F79A87;
+}
+
+.bg-pink{
+    background: #F15E5E;
+}
 
 /*
     ===== Index =====
  */   
-
  
- 
- .bg{
-     background: #dedede; 
-    }
-    
     .img{
         width: 20%;
     }
@@ -59,9 +97,9 @@ body{
     }
     
     .btn-login{
-        background: #4bc9b7;
         font-size: 1em !important;
         letter-spacing: 1px;
+        background: #72B5A4;
     }
     
     
@@ -81,10 +119,6 @@ body{
         max-width: 150px;
     }
 
-    .text-cinza{
-        color: #474747
-    }
-
     .icon-n{
         color: #95cfa9;
     }
@@ -93,28 +127,11 @@ body{
     padding: 2px;   
     }
 
-    .font-s{
-        font-size: 0.9em;
-    }
     .far, .fas,.fa{
         cursor: pointer;
     }
 
-    .purple{
-        color: #e0a6ff;
-    }
-
-    .green{
-        color: #3a9c8d;
-    }
-
-    .light-blue{
-        color: #4bcfea;
-    }
-
-    .red{
-        color: #f38fa6;
-    }
+   
 
     .list-group-item:hover{
         color: #eb8256 !important;
@@ -123,14 +140,7 @@ body{
         color: #eb8256 !important;
     }
 
-    .orange{
-        color: #eb8256 !important;
-    }
-
-    .bg-orange{
-        background: #eb8256;
-        color: white !important;
-    }
+   
 
     .input-orange{
         border: 1px solid #eb8256;
@@ -185,23 +195,3 @@ body{
 /*
 ===== MORADORES =====
 */
-
-.bg-oranger{
-    background: #e87e03;
-}
-
-.bg-blue{
-    background: #5bcc95;
-}
-
-.bg-green{
-    background: #3da69a;
-}
-
-.bg-red{
-    background: #F6565a;
-}
-
-.bg-yellow{
-    background: rgb(226, 203, 28);
-}
