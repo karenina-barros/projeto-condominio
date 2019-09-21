@@ -12,9 +12,13 @@
                         <label class="mb-0" for="inputAssunto">Assunto</label>
                         <input type="text" class="form-control form-control-sm" id="inputAssunto" placeholder="Digite o Assunto">
                     </div>
-                    <div class="form-group col-md-12">
+                    <div class="col-md-12">
                         <label class="mb-0" for="inputDescricao">Descrição</label>
                         <textarea id="textComunicado" placeholder="Digite a Descrição"></textarea>
+                    </div>
+                    <div class="form-group mb-4"> 
+                        <label for="exampleFormControlFile1"></label>
+                        <input type="file" class="form-control-file form-control-sm" id="exampleFormControlFile1" multiple>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-sm px-4">Cadastrar</button>
