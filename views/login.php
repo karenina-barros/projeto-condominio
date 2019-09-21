@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-gray">
         <div class="row justify-content-center my-5">
             <div class="col-10 mt-5">
                 <div class="col-4 mx-auto">

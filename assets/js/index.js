@@ -12,4 +12,7 @@ window.addEventListener('load', function(){
     else if (page == 'comunicados' || page == 'novoComunicado' || page == 'comunicado'){
         pageName.innerHTML = '<i class="fas fa-paper-plane pr-2"></i>comunicados  ';
     }
+    else if (page == 'financeiro' || page == 'contaPagar'){
+        pageName.innerHTML = '<i class="fa fa-dollar-sign pr-2"></i>Financeiro  ';
+    }
 });

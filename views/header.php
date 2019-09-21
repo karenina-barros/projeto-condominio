@@ -80,11 +80,26 @@
                     <i class="fas fa-cogs pr-1 ml-4"></i>
                     Configurações
                 </a>
-                <a href="#" class="list-group-item text-muted font-s">
-                    <i class="fas fa-dollar-sign pr-3 ml-4"></i>
-                    Financeiro
-                </a>
+                <div>
+                    <div class="border-top">
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro" data-target="#financeiro" data-toggle="collapse" class="list-group-item text-muted font-s">
+                            <i class="fas fa-dollar-sign pr-3 ml-4"></i>
+                               Financeiro
+                        </a>
+                    </div>
+                    <div class="pos-f-t">
+                        <div class="collapse bg-whiter text-center" id="financeiro">
+                            <div class="py-2 border-bottom disabled">
+                                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro">Contas A Receber</a>
+                            </div>
+                            <div class="py-2 border-bottom">
+                                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=contaPagar">Contas a Pagar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+       
             <div class="col-10 py-3 px-4 bg-light">
                 <div class="container">
                     <div class="row">
