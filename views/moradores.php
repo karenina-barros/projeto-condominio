@@ -10,7 +10,7 @@
     <div class="row my-4">
         <div class="col-12">
             <table class="table table-sm table-hover font-9 text-cinza text-center">
-                <thead class="bg-blue text-white">
+                <thead>
                     <tr>
                         <th scope="col">Id</th>
                         <th scope="col">Nome</th>

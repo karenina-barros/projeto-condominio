@@ -9,7 +9,7 @@ window.addEventListener('load', function(){
     else if (page == 'funcionarios' || page == 'funcionariosCadastrar' || page == 'funcionariosPerfil' || page == 'funcionariosEditar'){
         pageName.innerHTML = '<i class="fas fa-users-cog pr-2"></i>Funcionários';
     }
-    else if (page == 'comunicados' || page == 'novoComunicado'){
+    else if (page == 'comunicados' || page == 'novoComunicado' || page == 'comunicado'){
         pageName.innerHTML = '<i class="fas fa-paper-plane pr-2"></i>comunicados  ';
     }
 });

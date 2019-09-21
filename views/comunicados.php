@@ -10,7 +10,7 @@
     <div class="row my-4">
         <div class="col-12">
             <table class="table table-sm table-hover font-9 text-cinza text-center">
-                <thead class="bg-blue text-white">
+                <thead>
                     <tr>
                         <th scope="col">Assunto</th>
                         <th scope="col">Descrição</th>
@@ -27,7 +27,7 @@
                         <td>Karenina Barros</td>
                         <td><?= date('d/m/Y') ?></td>
                         <td>
-                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresPerfil" class="btn btn-sm text-white btn-info px-2 py-0 mr-1">
+                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=comunicado" class="btn btn-sm text-white btn-info px-2 py-0 mr-1">
                                 <i class="fas fa-eye pr-2"></i>Ver
                             </a>
                             <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresEditar" class="btn btn-sm text-white bg-yellow px-2 py-0 mr-1">
