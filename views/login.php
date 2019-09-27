@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="./assets/css/estilo.css">
 </head>
 
-<body>
-    <div class="container-fluid bg-gray">
+<body class="bg-dark-gray">
+    <div class="container-fluid p-5">
         <div class="row justify-content-center my-5">
             <div class="col-10 mt-5">
-                <div class="col-4 mx-auto">
+                <div class="col-4 mx-auto bg-dark p-5">
                     <div class="text-center">
                         <h1 class="mb-3 text-secondary">Bem-Vindo</h1>
-                        <img src="./assets/img/k.png" class="rounded img" alt="">
                     </div>
                     <form class="pt-4 ">
                         <div class="form-group pb-3 mt-3">
@@ -42,7 +41,7 @@
                         </div>
                         
                         <a href="http://localhost/Projetos/projeto-condominio/index.php?page=home">
-                            <button class="btn btn-block mt-4 btn-login text-white" type="button">Entrar</button>
+                            <button class="btn btn-block mt-4 btn-login text-white bg-green" type="button">Entrar</button>
                         </a>
                     </form>
                 </div>

@@ -16,7 +16,7 @@
     <div class="container-fluid mb-4">
         <div class="row p-1 topo">
             <div class="col-5 m-0 p-0">
-                    <img src="./assets/img/doce.png" class="img-logo rounded pl-5 pt-2" alt="">
+                    <img src="./assets/img/logo.png" class="img-logo rounded pl-5 pt-2" alt="">
             </div>
             <div class="col-3 justify-content-center py-1">
                 <form class="col-12 input-group input-group-sm">
@@ -104,7 +104,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 bg-white mb-2 py-3 px-4" >
-                        <h5 class="m-0 text-uppercase green " id="page"></h5>
+                        <h5 class="m-0 text-uppercase green " id="page">Deshboard</h5>
                         </div>
                     </div>
                 </div>
