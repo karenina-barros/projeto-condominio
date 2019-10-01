@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./assets/css/estilo.css">
 </head>
 
-<body class="bg-dark-gray">
-    <div class="container-fluid p-5">
+<body>
+    <div class="container-fluid p-5 bg-img">
         <div class="row justify-content-center my-5">
             <div class="col-10 mt-5">
                 <div class="col-4 mx-auto bg-dark p-5">
                     <div class="text-center">
-                        <h1 class="mb-3 text-secondary">Bem-Vindo</h1>
+                            <img src="./assets/img/logo.png" class="img-logo" alt="">
                     </div>
                     <form class="pt-4 ">
                         <div class="form-group pb-3 mt-3">

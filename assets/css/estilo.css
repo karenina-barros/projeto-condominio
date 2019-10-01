@@ -64,15 +64,11 @@ body{
 }
 
 .bg-dark{
-    background: rgba(255, 255, 255, 0.2)  !important;
+    background: rgba(255, 255, 255, 0.5)  !important;
 }
 
 .bg-gray{
-    background: #5D6473 !important;
-}
-
-.bg-dark-gray{
-    background: #343A40;
+    background: #dcdcdc !important;
 }
 
 .bg-blue-light{
@@ -86,6 +82,18 @@ body{
 .bg-pink{
     background: #F15E5E;
 }
+
+.bg-img{
+    background-image: url("../img/background-cinza.png");
+}
+
+/* 
+    ====== Login ======
+*/
+.img-logo{
+    max-width: 250px !important;
+}
+
 
 /*
     ===== Index =====
@@ -117,10 +125,10 @@ body{
     
     .menu{
         min-height: 700px;
-        border-right: 1px solid #eee
+        border-right: 1px solid #eee;
     }
-    .img-logo{
-        max-width: 200px;
+    .img-logo1{
+        max-width: 150px;
     }
 
     .icon-n{
@@ -138,7 +146,7 @@ body{
    
 
     .list-group-item:hover{
-        color: #eb8256 !important;
+        color: #3da69a !important;
     }
     .icon-topo:hover{
         color: #eb8256 !important;
