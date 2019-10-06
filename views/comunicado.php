@@ -1,12 +1,12 @@
 <div class="container bg-white px-4">
     <div class="row py-3 border-bottom">
-        <div class="col-sm">
-            <h6 class="card-title green mt-2 mb-0"><i class="fas fa-envelope-open-text pr-2 "></i>Comunicado</h6>
+        <div class="col-sm text-muted">
+            <h6 class="card-title  mt-2 mb-0"><i class="fas fa-envelope-open-text pr-2 text-green-dark"></i>Comunicado</h6>
         </div>
         <div class="col-sm text-right">
-            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-orange btn-sm font-8"><i class="fas fa-plus pr-2"></i>Novo</a>
-            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-orange btn-sm font-8"><i class="fas fa-edit pr-2"></i>Editar</a>
-            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-orange btn-sm font-8"><i class="fas fa-trash-alt pr-2"></i>Remover</a>
+            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-pink text-white btn-sm font-8"><i class="fas fa-plus pr-2"></i>Novo</a>
+            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-pink text-white btn-sm font-8"><i class="fas fa-edit pr-2"></i>Editar</a>
+            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=novoComunicado" class="btn bg-pink text-white btn-sm font-8"><i class="fas fa-trash-alt pr-2"></i>Remover</a>
         </div>
     </div>
     <div class="row my-4 pb-4 ">

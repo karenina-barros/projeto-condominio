@@ -1,12 +1,12 @@
 <div class="container py-3 bg-white px-4">
     <div class="row  mb-1 border-bottom">
-        <div class="col-sm">
-            <h6 class="card-title green"><i class="fas fa-user-check pr-2"></i>Cadastro</h6>
+        <div class="col-sm text-muted">
+            <h6 class="card-title"><i class="fas fa-user-check pr-2 text-green-dark"></i>Cadastro</h6>
         </div>
     </div>
     <div class="row font-9 py-3">
         <div class="col-12">
-            <form class="text-cinza" action="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresEditar">
+            <form class="text-cin" action="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresEditar">
                 <input type="text" name="id" hidden>
                 <div class="form-row">
                     <div class="form-group col-md-4">

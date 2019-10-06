@@ -1,7 +1,7 @@
 <div class="container py-3 bg-white px-4">
     <div class="row  mb-1 border-bottom">
         <div class="col-sm">
-            <h6 class="card-title green"><i class="fas fa-user-check pr-2"></i>Novo Comunicado</h6>
+            <h6 class="card-title green"><i class="fas fa-user-check pr-2 text-green-dark"></i>Novo Comunicado</h6>
         </div>
     </div>
     <div class="row font-9 py-3">

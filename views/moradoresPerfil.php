@@ -1,7 +1,7 @@
 <div class="container bg-white px-4">
     <div class="row py-3 border-bottom">
         <div class="col-sm">
-            <h6 class="card-title green mt-2 mb-0"><i class="fas fa-address-card pr-2 "></i>Perfil</h6>
+            <h6 class="card-title green mt-2 mb-0"><i class="fas fa-address-card pr-2 text-green-dark"></i>Perfil</h6>
         </div>
         <div class="col-sm text-right">
             <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresCadastrar" class="btn bg-orange btn-sm font-8"><i class="fas fa-plus pr-2"></i>Cadastrar Morador</a>

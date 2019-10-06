@@ -14,19 +14,19 @@
 
 <body>
     <div class="container-fluid mb-4">
-        <div class="row  topo bg-gray">
-            <div class="col-5 m-0 p-0">
-                    <img src="./assets/img/logo-header.png" class="img-logo1 rounded" alt="">
+        <div class="row  topo bg-white border-bottom">
+            <div class="col-5 px-1 py-1">
+                    <img src="./assets/img/logo-header.png" class="img-logo1  rounded" alt="">
             </div>
             <div class="col-3 justify-content-center py-2">
-                <form class="col-12 input-group input-group-sm">
-                    <input type="text" class="form-control input-orange" placeholder="Pesquisar...">
+                <form class="col-12 input-group input-group-sm pt-1">
+                    <input type="text" class="form-control input-green" placeholder="Pesquisar...">
                     <span class="input-group-append">
-                        <button class="btn bg-orange"><i class="fas fa-search"></i></button>
+                        <button class="btn btn-green"><i class="fas fa-search"></i></button>
                     </span>
                 </form>
             </div>
-            <div class="col-4">
+            <div class="col-4 pt-2">
                 <ul class="nav justify-content-end">
                     <li class="nav-item text-muted icon-topo">
                         <a class="nav-link ">
@@ -43,46 +43,46 @@
                             <i class="far fa-envelope"></i>
                         </a>
                     </li>
-                    <li class="nav-item red">
+                    <li class="nav-item text-pink">
                         <a class="nav-link">
                             <i class="fas fa-sign-out-alt"></i>
                         </a>
                     </li>
             </div>
         </div>
-        <div class="row bg-gray">
-            <div class="col-2 list-group list-group-flush menu p-0 bg-gray">
-                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=home   " class="list-group-item text-muted font-s bg-gray">
+        <div class="row bg-white">
+            <div class="col-2 list-group list-group-flush menu p-0">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=home   " class="list-group-item text-muted font-s">
                     <i class="fas fa-home pr-2 ml-4"></i>
                     Home
                 </a>
-                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradores" class="list-group-item text-muted font-s bg-gray">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradores" class="list-group-item text-muted font-s">
                     <i class="fas fa-users pr-2 ml-4"></i>
                     Moradores
                 </a>
-                <a href="#" class="list-group-item text-muted font-s bg-gray">
+                <a href="#" class="list-group-item text-muted font-s">
                     <i class="far fa-file-alt pr-3 ml-4"></i>
                     Documentos
                 </a>
-                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=comunicados" class="list-group-item text-muted font-s bg-gray">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=comunicados" class="list-group-item text-muted font-s">
                     <i class="fas fa-bullhorn pr-2 ml-4"></i>
                     Comunicados
                 </a>
-                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionarios" class="list-group-item text-muted font-s bg-gray">
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionarios" class="list-group-item text-muted font-s">
                     <i class="fas fa-user-tag pr-2 ml-4"></i>
                     Funcionarios
                 </a>
-                <a href="#" class="list-group-item text-muted font-s bg-gray">
+                <a href="#" class="list-group-item text-muted font-s">
                     <i class="fas fa-tasks pr-2 ml-4"></i>
                     Planejamento
                 </a>
-                <a href="#" class="list-group-item text-muted font-s bg-gray">
+                <a href="#" class="list-group-item text-muted font-s">
                     <i class="fas fa-cogs pr-1 ml-4"></i>
                     Configurações
                 </a>
                 <div>
-                    <div class="border-top bg-gray">
-                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro" data-target="#financeiro" data-toggle="collapse" class="list-group-item text-muted font-s bg-gray">
+                    <div class="border-top">
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro" data-target="#financeiro" data-toggle="collapse" class="list-group-item text-muted font-s">
                             <i class="fas fa-dollar-sign pr-3 ml-4"></i>
                                Financeiro
                         </a>
@@ -102,9 +102,9 @@
        
             <div class="col-10 py-3 px-4 bg-light">
                 <div class="container">
-                    <div class="row">
+                    <div class="row px-2">
                         <div class="col-12 bg-white mb-2 py-3 px-4" >
-                        <h5 class="m-0 text-uppercase green " id="page"><i class="far fa-chart-bar pr-2"></i>Deshboard</h5>
+                        <h5 class="m-0 text-uppercase text-muted" id="page"><i class="far fa-chart-bar pr-2 text-pink"></i>Deshboard</h5>
                         </div>
                     </div>
                 </div>

@@ -32,12 +32,23 @@ body{
 .text-cin{
     color: #444
 }
-
 .text-cinza{
     color: #47474747;
 }
 .text-red{
     color: #f38fa6;
+}
+.text-pink{
+    color: #F15E5E;
+}
+.text-purple{
+    color: #b092bb;
+}
+.text-green{
+    color: #3da69a;
+}
+.text-green-dark{
+    color: #30b690;
 }
 
 
@@ -51,8 +62,15 @@ body{
     background: #5bcc95;
 }
 
+.bg-purple{
+    background: #b092bb;
+}
+
 .bg-green{
     background: #3da69a;
+}
+.bg-green-dark{
+    background: #30b690;
 }
 
 .bg-light{
@@ -68,16 +86,13 @@ body{
 }
 
 .bg-gray{
-    background: #dcdcdc !important;
+    background: #eee;
 }
 
 .bg-blue-light{
     background: #72B5A4;
 }
 
-.bg-pink-light{
-    background: #F79A87;
-}
 
 .bg-pink{
     background: #F15E5E;
@@ -143,38 +158,27 @@ body{
         cursor: pointer;
     }
 
-   
-
     .list-group-item:hover{
         color: #3da69a !important;
     }
+
     .icon-topo:hover{
-        color: #eb8256 !important;
+        color: #72B5A4 !important;
     }
 
-   
-
-    .input-orange{
-        border: 1px solid #eb8256;
+    .input-green{
+        border: 1px solid #72B5A4;
     }
 
-
+    .btn-green{
+        background: #72B5A4;
+        color: #ffffff;
+    }
 
 /*
-    ====== FOOTER =====
-*/
-
-.footer{
-    width: 100%;
-    bottom: 0;
-}
-
-.footer-topo{
-    border-top: 1px solid #eee;
-}
 
 /* 
-    ===== HOME =====
+===== HOME =====
 */
 
 .card-informativo p{
@@ -185,8 +189,8 @@ body{
     font-size: 0.82em;
 }
 
-.shadow{
-    background-color: rgba(0,0,0, 0.1)
+.darked{
+    background-color: rgba(0,0,0, 0.1) !important;
 }
 
 .meta-text p{
@@ -207,3 +211,14 @@ body{
 /*
 ===== MORADORES =====
 */
+====== FOOTER =====
+*/
+
+.footer{
+width: 100%;
+bottom: 0;
+}
+
+.footer-topo{
+border-top: 1px solid #eee;
+}
