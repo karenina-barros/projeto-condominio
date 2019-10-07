@@ -80,31 +80,26 @@
                     <i class="fas fa-cogs pr-1 ml-4"></i>
                     Configurações
                 </a>
-                <div>
-                    <div class="border-top">
-                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro" data-target="#financeiro" data-toggle="collapse" class="list-group-item text-muted font-s">
-                            <i class="fas fa-dollar-sign pr-3 ml-4"></i>
-                               Financeiro
+
+                <div href=""  class="item-dropdown text-muted font-s border-bottom">
+                    <i class="fas fa-dollar-sign pr-3 ml-4"></i>
+                        Financeiro
+                    <ul class="dropdown-ul">
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=contaReceber">
+                            <li class="text-muted">Contas A Receber</li>
                         </a>
-                    </div>
-                    <div class="pos-f-t">
-                        <div class="collapse bg-whiter text-center" id="financeiro">
-                            <div class="py-2 border-bottom disabled">
-                                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=financeiro" class="text-muted">Contas A Receber</a>
-                            </div>
-                            <div class="py-2 border-bottom">
-                                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=contaPagar" class="text-muted">Contas a Pagar</a>
-                            </div>
-                        </div>
-                    </div>
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=contaPagar">
+                            <li class="text-muted">Contas a Pagar</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
        
-            <div class="col-10 py-3 px-4 bg-light">
+            <div class="col-10 py-3 px-4 bg-gray">
                 <div class="container">
-                    <div class="row px-2">
+                    <div class="row">
                         <div class="col-12 bg-white mb-2 py-3 px-4" >
-                        <h5 class="m-0 text-uppercase text-muted" id="page"><i class="far fa-chart-bar pr-2 text-pink"></i>Deshboard</h5>
+                        <h5 class="m-0 text-uppercase text-green-dark" id="page"><i class="far fa-chart-bar pr-2"></i>Deshboard</h5>
                         </div>
                     </div>
                 </div>

@@ -86,7 +86,7 @@ body{
 }
 
 .bg-gray{
-    background: #eee;
+    background: #f6f6f6;
 }
 
 .bg-blue-light{
@@ -174,6 +174,44 @@ body{
         background: #72B5A4;
         color: #ffffff;
     }
+
+    .item-dropdown{
+        padding: 12px 0px;
+        padding-left: 20px;
+    }
+
+    .dropdown-ul{
+        display: none;
+    }
+
+    .dropdown-ul a{
+        text-decoration: none;
+    }
+
+    .dropdown-ul li:hover{
+        color: #30b690 !important;
+    }
+
+    .item-dropdown:hover{
+        padding-bottom: 0;
+        color: #30b690 !important;
+    }
+
+    .item-dropdown:hover .dropdown-ul{
+        display: block !important;
+        list-style: none;
+    }
+
+    .item-dropdown:hover li{
+        padding: 5px 17px;
+    }
+
+    .item-dropdown:hover li:hover{
+        color: #222 !important;
+    }
+
+
+
 
 /*
 

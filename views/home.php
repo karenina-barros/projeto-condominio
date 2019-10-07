@@ -1,6 +1,6 @@
 <div class="mt-2 mb-4 mx-2">
     <div class="row">
-        <div class="col-3">
+        <div class="col-3 px-2">
             <div class="card card-informativo bg-orange">
                 <div class="card-body p-0">
                     <div class="p-3">
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 px-2">
             <div class="card card-informativo bg-info">
                 <div class="card-body p-0">
                     <div class="p-3">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 px-2">
             <div class="card card-informativo bg-purple">
                 <div class="card-body p-0">
                     <div class="p-3">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 px-2">
             <div class="card card-informativo bg-green-dark">
                 <div class="card-body p-0">
                     <div class="p-3">
@@ -56,7 +56,7 @@
 </div>
 <div class="px-2">
     <div class="row">
-        <div class="col-7">
+        <div class="col-7 px-2">
             <div class="card meta-text">
                 <div class="card-body pb-3">
                     <h5 class="card-title mb-3 text-uppercase text-muted font-10 border-bottom pb-2">
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-5"> 
+        <div class="col-5 px-2"> 
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-uppercase border-bottom pb-2 text-muted font-10"><i class="fas fa-comment-dots pr-2 text-info"></i>Comentários</h5>

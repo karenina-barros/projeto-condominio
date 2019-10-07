@@ -30,7 +30,7 @@
         <div class="col-4">
             <div class="card border-defalt ">
                 <div class="card-header py-1 m-0">Anexos</div>
-                <div class="card-body font-8 text-cinza px-2 py-0">              
+                <div class="card-body font-8 text-cin px-2 py-0">              
                     <ul class="list-group list-group-flush py-2">
                         <li class="list-group-item"><i class="far fa-file-pdf pr-3"></i>Arquivo PDF</li>   
                         <li class="list-group-item"><i class="far fa-file-pdf pr-3"></i>Arquivo PDF</li>   
