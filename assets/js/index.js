@@ -15,4 +15,7 @@ window.addEventListener('load', function(){
     else if (page == 'contaReceber' || page == 'contaPagar' || page == 'cadastrarConta' || page == 'verConta'){
         pageName.innerHTML = '<i class="fa fa-dollar-sign pr-2 "></i>Financeiro  ';
     }
+    else if (page == 'despesas' || page == 'receitas' || page == 'balanco' || page == 'inadiplencia'){
+        pageName.innerHTML = '<i class="far fa-file-alt pr-2 "></i>Relatórios  ';
+    }
 });

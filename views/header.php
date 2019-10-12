@@ -60,17 +60,17 @@
                     <i class="fas fa-users pr-2 ml-4"></i>
                     Moradores
                 </a>
-                <a href="#" class="list-group-item text-muted font-s">
-                    <i class="far fa-file-alt pr-3 ml-4"></i>
-                    Documentos
+                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionarios" class="list-group-item text-muted font-s">
+                    <i class="fas fa-user-tag pr-2 ml-4"></i>
+                    Funcionarios
                 </a>
                 <a href="http://localhost/Projetos/projeto-condominio/index.php?page=comunicados" class="list-group-item text-muted font-s">
                     <i class="fas fa-bullhorn pr-2 ml-4"></i>
                     Comunicados
                 </a>
-                <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionarios" class="list-group-item text-muted font-s">
-                    <i class="fas fa-user-tag pr-2 ml-4"></i>
-                    Funcionarios
+                <a href="#" class="list-group-item text-muted font-s">
+                    <i class="far fa-folder-open pr-3 ml-4"></i>
+                    Documentos
                 </a>
                 <a href="#" class="list-group-item text-muted font-s">
                     <i class="fas fa-tasks pr-2 ml-4"></i>
@@ -80,7 +80,27 @@
                     <i class="fas fa-cogs pr-1 ml-4"></i>
                     Configurações
                 </a>
-
+                <div href=""  class="item-dropdown text-muted font-s border-bottom">
+                    <i class="far fa-file-alt pr-3 ml-4"></i>
+                        Relatórios
+                    <ul class="dropdown-ul">
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=despesas">
+                            <li class="text-muted">Despesas</li>
+                        </a>
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=receitas">
+                            <li class="text-muted">Receitas</li>
+                        </a>
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=balanco">
+                            <li class="text-muted">Balanço</li>
+                        </a>
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=inadiplencia">
+                            <li class="text-muted">Inadiplência</li>
+                        </a>
+                        <a href="http://localhost/Projetos/projeto-condominio/index.php?page=contaPagar">
+                            <li class="text-muted">Fundo de Reserva</li>
+                        </a>
+                    </ul>
+                </div>
                 <div href=""  class="item-dropdown text-muted font-s border-bottom">
                     <i class="fas fa-dollar-sign pr-3 ml-4"></i>
                         Financeiro
