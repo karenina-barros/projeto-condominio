@@ -6,7 +6,7 @@
     </div>
     <div class="row">
         <div class="col-12 py-2">
-            <h6 class="font-10 text-cin">Período</h6>
+            <h6 class="font-9 text-cin">Período</h6>
          </div>
         <div class="col-4 pb-4">
             <div class="input-group input-group-sm">

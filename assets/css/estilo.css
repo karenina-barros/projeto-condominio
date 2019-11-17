@@ -27,6 +27,15 @@ body{
     font-size: 0.85em;
 }
 
+.font-7{
+    font-size: 0.8em;
+}
+
+
+/* input, label {
+    font-size: 0.85em !important;
+} */
+
 /* ====== FONT COLOR ======= */
 
 .text-cin{
@@ -150,6 +159,10 @@ body{
         color: #95cfa9;
     }
 
+    .fas .fa-search{
+        ;
+    }
+
     .icon-l{
     padding: 2px;   
     }
@@ -168,6 +181,7 @@ body{
 
     .input-green{
         border: 1px solid #72B5A4;
+        
     }
 
     .btn-green{

@@ -1,7 +1,7 @@
 <div class="container bg-white px-4">
     <div class="row py-3 border-bottom">
         <div class="col-sm">
-            <h6 class="card-title  mt-2 mb-0 text-pink"><i class="fas fa-file-invoice-dollar pr-2"></i>Relatório de Despesas</h6>        
+            <h6 class="card-title  mt-2 mb-0 text-pink"><i class="fas fa-piggy-bank pr-2"></i>Fundo de Reserva</h6>        
         </div>  
     </div>
     <div class="row">
@@ -11,7 +11,7 @@
         <div class="col-4 pb-4">
             <div class="input-group input-group-sm">
                 <div class="input-group-prepend">
-                    <span class="input-group-text font-8" id="inputGroupPrepend">De</span>
+                    <span class="input-group-text" id="inputGroupPrepend">De</span>
                 </div>
                 <input type="date" class="form-control" id="date">
             </div>
@@ -19,7 +19,7 @@
         <div class="col-4 pb-4">
             <div class="input-group input-group-sm">
                 <div class="input-group-prepend">
-                    <span class="input-group-text font-8" id="inputGroupPrepend">Até</span>
+                    <span class="input-group-text" id="inputGroupPrepend">Até</span>
                 </div>
                 <input type="date" class="form-control" id="date1">
             </div>

@@ -15,7 +15,10 @@ window.addEventListener('load', function(){
     else if (page == 'contaReceber' || page == 'contaPagar' || page == 'cadastrarConta' || page == 'verConta'){
         pageName.innerHTML = '<i class="fa fa-dollar-sign pr-2 "></i>Financeiro  ';
     }
-    else if (page == 'despesas' || page == 'receitas' || page == 'balanco' || page == 'inadiplencia'){
+    else if (page == 'despesas' || page == 'receitas' || page == 'balanco' || page == 'inadiplencia' || page == 'reserva'){
         pageName.innerHTML = '<i class="far fa-file-alt pr-2 "></i>Relatórios  ';
+    }
+    else if (page == 'documento' || page == 'criarAta'|| page == 'verAta'){
+        pageName.innerHTML = '<i class="far fa-folder-open pr-2 "></i>Documentos';
     }
 });

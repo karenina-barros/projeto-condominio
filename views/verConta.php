@@ -12,7 +12,7 @@
     <div class="row my-4 pb-4 ">
         <div class="col-8">
             <div class="card border-defalt ">
-                <div class="card-body font-9  text-cin">              
+                <div class="card-body font-8  text-cin">              
                 <div class="row">
                     <div class="col-12">
                         <p class="text-cin mb-3 h4"><span class="mb-1"> Conta de Luz</span></p>

@@ -4,7 +4,7 @@
             <h6 class="card-title mt-2 mb-0"><i class="fas fa-search-dollar pr-2"></i>Contas a Receber</h6>
         </div>
         <div class="col-sm text-right">
-            <a class="btn bg-pink text-white btn-sm font-8" href="http://localhost/Projetos/projeto-condominio/index.php?page=cadastrarConta"><i class="fas fa-plus pr-2"></i>Nova Conta</a>
+            <a class="btn bg-pink text-white btn-sm font-9" href="http://localhost/Projetos/projeto-condominio/index.php?page=cadastrarConta"><i class="fas fa-plus pr-2"></i>Nova Conta</a>
         </div>
     </div>
     <div class="row ">
@@ -26,13 +26,13 @@
                         <td>R$100,00</td>
                         
                         <td>
-                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=verConta" class="btn btn-sm text-white btn-info px-2 py-0 mr-1">
+                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=verConta" class="btn btn-sm text-white btn-info px-2 py-0 mr-1 ">
                                 <i class="fas fa-eye pr-2"></i>Ver
                             </a>
-                            <a href="#" class="btn btn-sm text-white bg-green-dark px-2 py-0 mr-1">
+                            <a href="#" class="btn btn-sm text-white bg-green-dark px-2 py-0 mr-1 ">
                                 <i class="fas fa-edit pr-2"></i>Editar
                             </a> 
-                            <a href="#" class="btn bg-pink btn-sm text-white px-2 py-0 bg-red">
+                            <a href="#" class="btn bg-pink btn-sm text-white px-2 py-0 bg-red ">
                                 <i class="fas fa-trash-alt pr-2"></i>Remover
                             </a>
                         </td>

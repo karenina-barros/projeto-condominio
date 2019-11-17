@@ -4,7 +4,7 @@
             <h6 class="card-title mt-2 mb-0"><i class="fas fa-list-alt pr-2 text-green-dark"></i>Listagem</h6>
         </div>
         <div class="col-sm text-right">
-            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresCadastrar" class="btn btn-info btn-sm font-8"><i class="fas fa-plus pr-2"></i>Cadastrar Morador</a>
+            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresCadastrar" class="btn btn-info btn-sm font-9"><i class="fas fa-plus pr-2"></i>Cadastrar Morador</a>
         </div>
     </div>
     <div class="row my-4">
@@ -25,13 +25,13 @@
                         <td>Lucia da silva Barros</td>
                         <td>Otto</td>
                         <td>
-                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresPerfil" class="btn btn-sm text-white btn-info px-2 py-0 mr-1">
+                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresPerfil" class="btn btn-sm text-white btn-info px-2 py-0 mr-1 ">
                                 <i class="fas fa-eye pr-2"></i>Ver
                             </a>
-                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresEditar" class="btn btn-sm text-white bg-green-dark px-2 py-0 mr-1">
+                            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=moradoresEditar" class="btn btn-sm text-white bg-green-dark px-2 py-0 mr-1 ">
                                 <i class="fas fa-edit pr-2"></i>Editar
                             </a> 
-                            <a href="" class="btn btn-sm text-white px-2 py-0 bg-pink">
+                            <a href="" class="btn btn-sm text-white px-2 py-0 bg-pink ">
                                 <i class="fas fa-trash-alt pr-2"></i>Remover
                             </a>
                         </td>

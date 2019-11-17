@@ -4,7 +4,7 @@
             <h6 class="card-title    green mt-2 mb-0"><i class="fas fa-list-alt pr-2 text-green-dark"></i>Listagem</h6>
         </div>
         <div class="col-sm text-right">
-            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionariosCadastrar" class="btn bg-pink text-white    btn-sm font-8"><i class="fas fa-plus pr-2"></i>Cadastrar Funcionários</a>
+            <a href="http://localhost/Projetos/projeto-condominio/index.php?page=funcionariosCadastrar" class="btn bg-pink text-white btn-sm font-9"><i class="fas fa-plus pr-2"></i>Cadastrar Funcionários</a>
         </div>
     </div>
     <div class="row my-4">
